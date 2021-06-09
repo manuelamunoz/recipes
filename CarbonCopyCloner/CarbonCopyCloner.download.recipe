@@ -53,7 +53,7 @@
                 <key>input_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%/Carbon Copy Cloner.app</string>
                 <key>requirement</key>
-                <string>anchor apple generic and identifier "com.bombich.ccc"</string>
+                <string>anchor apple generic and identifier "com.bombich.ccc" and (certificate leaf[field.1.2.840.113635.100.6.1.13/* exists */ and certificate leaf[subject.OU] = "L4F2DED5Q7")</string>
             </dict>
         </dict>
     </array>
