@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of CarbonCopyCloner.
+    <string>Downloads the current release version of CarbonCopyCloner.</string>
     <key>Identifier</key>
     <string>com.github.manuelamunoz.download.CarbonCopyCloner</string>
     <key>Input</key>
