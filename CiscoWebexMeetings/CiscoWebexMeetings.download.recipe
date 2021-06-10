@@ -38,7 +38,7 @@
             <key>Arguments</key>
             <dict>   
                 <key>input_path</key>   
-                <string>%pathname%/Cisco Webex Meetings.app</string>
+                <string>%pathname%/Cisco Webex Meetings.pkg</string>
                 <key>expected_authority_names</key>
                 <array>
                     <string>Developer ID Installer: Cisco (DE8Y96K9QP)</string>
