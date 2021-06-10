@@ -36,13 +36,15 @@
             <key>Processor</key>
             <string>CodeSignatureVerifier</string>
             <key>Arguments</key>
-            <dict>
-                <key>input_path</key>
-                <string>%pathname%/Cisco\ Webex\ Meetings.app</string>
-                <key>strict_verification</key>
-                <false/>
-                <key>requirement</key>
-                <string>identifier "com.cisco.webexmeetingsapp" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = DE8Y96K9QP</string>
+            <dict>   
+                <key>input_path</key>   
+                <string>%pathname%</string>
+                <key>expected_authority_names</key>
+                <array>
+                    <string>Developer ID Installer: Cisco (DE8Y96K9QP)</string>
+                    <string>Developer ID Certification Authority</string>
+                    <string>Apple Root CA</string>
+                </array>
             </dict>
         </dict>
     </array>
