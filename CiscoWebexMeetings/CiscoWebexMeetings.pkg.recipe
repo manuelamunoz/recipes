@@ -15,7 +15,6 @@
     <string>com.github.manuelamunoz.download.CiscoWebexMeetings</string>
     <key>Process</key>
     <array>
-        </dict>
         <dict>
             <key>Processor</key>
             <string>Copier</string>
