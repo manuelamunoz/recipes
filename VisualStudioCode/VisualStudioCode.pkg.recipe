@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of CarbonCopyCloner and builds a package.</string>
+    <string>Downloads the current release version of Visual Studio Code and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.manuelamunoz.pkg.CarbonCopyCloner</string>
+    <string>com.github.manuelamunoz.pkg.VisualStudioCode</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CarbonCopyCloner</string>
+        <string>VSCode-darwin-universal</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.manuelamunoz.download.CarbonCopyCloner</string>
+    <string>com.github.manuelamunoz.download.VisualStudioCode</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
@@ -52,7 +52,7 @@
             <key>Arguments</key>
             <dict>
                 <key>input_plist_path</key>
-                <string>%pkgroot%/Applications/Carbon Copy Cloner.app/Contents/Info.plist</string>
+                <string>%pkgroot%/Applications/Visual Studio Code.app/Contents/Info.plist</string>
                 <key>plist_version_key</key>
                 <string>CFBundleShortVersionString</string>
             </dict>
@@ -69,7 +69,7 @@
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
-                    <string>com.bombich.ccc</string>
+                    <string>com.microsoft.VSCode</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
