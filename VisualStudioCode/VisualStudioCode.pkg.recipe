@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>VSCode-darwin-universal</string>
+        <string>VisualStudioCode</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.manuelamunoz.download.VisualStudioCode</string>
