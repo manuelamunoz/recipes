@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>JabraDirectSetup</string>
         <key>SOFTWARETITLE</key>
-        <string>JabraDirect</string>
+        <string>JabraDirectSetup</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.manuelamunoz.download.JabraDirectSetup</string>
