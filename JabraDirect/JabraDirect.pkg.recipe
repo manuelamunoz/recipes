@@ -28,26 +28,6 @@
                 <string>%RECIPE_CACHE_DIR%/JabraDirectSetup.pkg</string>
             </dict>
         </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-               <key>destination_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack</string>
-               <key>flat_pkg_path</key>
-               <string>%pathname%/*JabraDirectSetup*.pkg</string>
-            </dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
-         </dict>
-         <dict>
-            <key>Arguments</key>
-            <dict>
-               <key>pattern</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/unpack/*JabraDirectSetup*.pkg</string>
-            </dict>
-            <key>Processor</key>
-            <string>FileFinder</string>
-         </dict>
          <dict>
             <key>Arguments</key>
             <dict>
