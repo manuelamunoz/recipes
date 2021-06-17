@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/%SOFTWARETITLE%.pkg</string>
+                <string>%pathname%/JabraDirectSetup.pkg</string>
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/JabraDirectSetup.pkg</string>
             </dict>
@@ -63,7 +63,7 @@
             <key>Arguments</key>
             <dict>
                <key>input_plist_path</key>
-               <string>0%RECIPE_CACHE_DIR%/downloads/payload/Jabra Direct.app/Contents/Info.plist</string>
+               <string>%RECIPE_CACHE_DIR%/downloads/payload/Jabra Direct.app/Contents/Info.plist</string>
                <key>plist_version_key</key>
                <string>CFBundleShortVersionString</string>
             </dict>
@@ -76,7 +76,7 @@
             <key>Arguments</key>
             <dict>
                <key>source_pkg</key>
-               <string>%RECIPE_CACHE_DIR%/JabraDirectSetup.pkg</string>
+               <string>%pathname%</string>
                <key>pkg_path</key>
                <string>%RECIPE_CACHE_DIR%/%SOFTWARETITLE%_%version%.pkg</string>
             </dict>
