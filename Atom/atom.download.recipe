@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>atom-mac</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://atom-installer.github.com/v1.57.0/atom-mac.zip?s=1620674331&ext=.zip</string>
+        <string>https://atom.io/download/mac</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
@@ -21,7 +21,7 @@
             <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
-            <dict>
+            <dict>at
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
