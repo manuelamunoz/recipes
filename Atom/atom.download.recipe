@@ -21,7 +21,7 @@
             <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
-            <dict>at
+            <dict>
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
