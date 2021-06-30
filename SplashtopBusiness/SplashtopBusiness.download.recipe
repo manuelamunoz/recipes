@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Splashtop_Business_Mac_INSTALLER_v3.4.6.0 (1)</string>
+        <string>Splashtop_Business_Mac_INSTALLER_v3.4.6.0</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://www.splashtop.com/downloadstart?product=stb&platform=mac-client</string>
+        <string>https://www.splashtop.com/downloadstart?product=stb&amp;platform=mac-client</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
