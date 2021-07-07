@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Atom herunterladen.</string>
+		<string>Text editor.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Atom.png</string>
 		<key>Comment</key>
