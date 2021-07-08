@@ -35,13 +35,15 @@
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>extension_attributes</key>
-			<array>
+				<array>
 					<dict>
 						<key>ext_attribute_path</key>
 						<string>CFBundleVersionExtensionAttribute.xml</string>
 					</dict>
 				</array>
-				<dict>
+				<key>groups</key>
+				<array>
+					<dict>
 						<key>name</key>
 						<string>%GROUP_NAME%</string>
 						<key>smart</key>
