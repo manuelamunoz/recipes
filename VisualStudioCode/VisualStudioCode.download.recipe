@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>VSCode-darwin-universal</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://az764295.vo.msecnd.net/stable/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c/VSCode-darwin-universal.zip</string>
+        <string>https://code.visualstudio.com/sha/download?build=stable&amp;os=darwin-universal</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
