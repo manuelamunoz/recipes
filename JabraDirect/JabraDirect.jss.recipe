@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Jabra Direct, makes a pkg of it, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.manuelamunoz.jss.GoogleChrome</string>
+	<string>com.github.manuelamunoz.jss.JabraDirectSetup</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
