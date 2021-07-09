@@ -22,7 +22,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%-2016-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Microsoft OneNoteSmartGroupTemplate2016.xml</string>
+		<string>Microsoft OneNoteSmartGroupTemplate.xml</string>
 		<key>NAME</key>
 		<string>MSOneNote2016</string>
 		<key>OS_REQUIREMENTS</key>
