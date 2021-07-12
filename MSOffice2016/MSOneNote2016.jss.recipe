@@ -20,7 +20,7 @@
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-2016-update-smart</string>
+		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>Microsoft OneNoteSmartGroupTemplate.xml</string>
 		<key>NAME</key>
