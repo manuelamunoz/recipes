@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of coconutBatterye and makes a pkg. Then, uploads to the JSS.</string>
+	<string>Downloads the latest version of coconutBattery, makes a pkg of it, and uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.manuelamunoz.jss.coconutBattery</string>
 	<key>Input</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>coconutBattery herunterladen.</string>
+		<string>coconutBattery editor.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>coconutBattery.png</string>
 		<key>Comment</key>
@@ -30,7 +30,7 @@
 		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.0</string>
+	<string>0.4.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.froegelein.pkg.coconutBattery</string>
 	<key>Process</key>
