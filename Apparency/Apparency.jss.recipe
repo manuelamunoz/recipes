@@ -8,14 +8,8 @@
 	<string>com.github.manuelamunoz.jss.Apparency</string>
 	<key>Input</key>
 	<dict>
-		<key>CATEGORY</key>
+	    <key>CATEGORY</key>
 		<string>Utility</string>
-		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart-appimmeranzeigen</string>
-		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplateAppzeigen.xml</string>
-		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -32,10 +26,16 @@
 		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
 		<key>version</key>
 		<string></string>
+		<key>CATEGORY</key>
+		<string>Utility</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart-test</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplateAppzeigen.xml</string>
 		<key>NAME</key>
 		<string>Apparency</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
+		<string>Productivity</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplateAppzeigen.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
@@ -79,6 +79,15 @@
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+			</dict>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
