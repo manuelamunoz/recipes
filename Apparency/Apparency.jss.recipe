@@ -10,9 +10,9 @@
 	<dict>
 		<key>CATEGORY</key>
 		<string>Utility</string>
-		<key>GROUP_NAMEAPP</key>
+		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart-appimmeranzeigen</string>
-		<key>GROUP_TEMPLATEAPP</key>
+		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplateAppzeigen.xml</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
@@ -34,9 +34,9 @@
 		<string></string>
 		<key>NAME</key>
 		<string>Apparency</string>
-		<key>POLICY_CATEGORYAPP</key>
+		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
-		<key>POLICY_TEMPLATEAPP</key>
+		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplateAppzeigen.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Apparency herunterladen.</string>
@@ -85,23 +85,27 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>%GROUP_NAMEAPP%</string>
+						<string>%GROUP_NAME%</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%GROUP_TEMPLATEAPP%</string>
+						<string>%GROUP_TEMPLATE%</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
-				<string>%POLICY_CATEGORYAPP%</string>
+				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
-				<string>%POLICY_TEMPLATEAPP%</string>
+				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>

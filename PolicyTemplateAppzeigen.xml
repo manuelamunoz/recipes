@@ -4,7 +4,7 @@
 		<enabled>true</enabled>
 		<frequency>Ongoing</frequency>
 		<category>
-			<name>%POLICY_CATEGORYAPP%</name>
+			<name>%POLICY_CATEGORY%</name>
 		</category>
 	</general>
 	<scope>
