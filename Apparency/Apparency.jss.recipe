@@ -83,6 +83,7 @@
 				<string>%CATEGORY%</string>
 				<key>groups</key>
 			</dict>
+		</dict>
 	</array>
 	<key>Process</key>
 	<array>
