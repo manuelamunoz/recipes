@@ -14,6 +14,10 @@
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart-test</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplateAppzeigen.xml</string>
 		<key>NAME</key>
 		<string>Apparency</string>
 		<key>POLICY_CATEGORY</key>
@@ -28,10 +32,6 @@
 		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
 		<key>version</key>
 		<string></string>
-		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart-test</string>
-		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplateAppzeigen.xml</string>
 		<key>NAME</key>
 		<string>Apparency</string>
 		<key>POLICY_CATEGORY</key>
