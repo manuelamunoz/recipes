@@ -10,6 +10,8 @@
 	<dict>
 	    <key>CATEGORY</key>
 		<string>Utility</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
