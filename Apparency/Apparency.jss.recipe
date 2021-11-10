@@ -105,7 +105,6 @@
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
-				<array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
