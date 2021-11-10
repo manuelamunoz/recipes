@@ -11,6 +11,10 @@
 		<key>CATEGORY</key>
 		<string>Utility</string>
 		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart-appimmeranzeigen</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplateAppzeigen.xml</string>
+		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
@@ -20,6 +24,20 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Apparency herunterladen.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Apparency.png</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>version</key>
+		<string></string>
+		<key>NAME</key>
+		<string>Apparency</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplateAppzeigen.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Apparency herunterladen.</string>
 		<key>SELF_SERVICE_ICON</key>
