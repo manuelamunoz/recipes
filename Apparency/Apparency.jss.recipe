@@ -10,9 +10,9 @@
 	<dict>
 		<key>CATEGORY</key>
 		<string>Utility</string>
-		<key>GROUP_NAME</key>
+		<key>GROUP_NAMEAPP</key>
 		<string>%NAME%-update-smart-appimmeranzeigen</string>
-		<key>GROUP_TEMPLATE</key>
+		<key>GROUP_TEMPLATEAPP</key>
 		<string>SmartGroupTemplateAppzeigen.xml</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
@@ -34,9 +34,9 @@
 		<string></string>
 		<key>NAME</key>
 		<string>Apparency</string>
-		<key>POLICY_CATEGORY</key>
+		<key>POLICY_CATEGORYAPP</key>
 		<string>Testing</string>
-		<key>POLICY_TEMPLATE</key>
+		<key>POLICY_TEMPLATEAPP</key>
 		<string>PolicyTemplateAppzeigen.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Apparency herunterladen.</string>
@@ -73,6 +73,29 @@
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%SELF_SERVICE_ICON%</string>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAMEAPP%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATEAPP%</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORYAPP%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATEAPP%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
