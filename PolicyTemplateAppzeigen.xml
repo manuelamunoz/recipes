@@ -1,6 +1,6 @@
 <policy>
 	<general>
-		<name>Install Latest %PROD_NAME%</name>
+		<name>Install %PROD_NAME%</name>
 		<enabled>true</enabled>
 		<frequency>Ongoing</frequency>
 		<category>
