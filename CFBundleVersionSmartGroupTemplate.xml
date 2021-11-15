@@ -24,13 +24,6 @@
 			<value>%VERSION%</value>
 		</criterion>
 		<criterion>
-			<name>%NAME% Version</name>
-			<priority>3</priority>
-			<and_or>and</and_or>
-			<search_type>is not</search_type>
-			<value></value>
-		</criterion>
-		<criterion>
 			<name>Computer Group</name>
 			<priority>4</priority>
 			<and_or>and</and_or>
