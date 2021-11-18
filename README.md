@@ -13,7 +13,7 @@ je nachdem datei die man herunterlädt, kann man das Script anpassen
 
 Rechte des Programm in pkg.recipe anpassen: 
 -user: root und group: admin
-<array>
+"<array>
    <dict>
       <key>path</key>
       <string>Applications</string>
@@ -22,6 +22,6 @@ Rechte des Programm in pkg.recipe anpassen:
       <key>group</key>
       <string>admin</string>
    </dict>
-</array>
+</array>"
 
 Die Rechte in recipes mit CFBundleVersion kann man nicht direkt die Rechte anpassen, es wird automatisch user: root und group: wheel. 
