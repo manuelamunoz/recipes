@@ -10,7 +10,7 @@ Ziel: autopkg mit Version: NameProgram-VersionNummer.pkg
 - .zip ---> .app ------> .pkg mit Version : Visual Studio Code
 
 je nachdem datei die man herunterlädt, kann man das Script anpassen
-##################################################################################################################################################
+
 Rechte des Programm in pkg.recipe anpassen: 
 -user: root und group: admin
 <array>
