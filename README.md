@@ -12,4 +12,6 @@ Ziel: autopkg mit Version: NameProgram-VersionNummer.pkg
 je nachdem datei die man herunterlädt, kann man das Script anpassen
 
 Rechte des Programm in pkg.recipe anpassen, user: root und group: admin
+
+
 Die Rechte in recipes mit CFBundleVersion kann man nicht direkt die Rechte anpassen, es wird automatisch user: root und group: wheel. 
