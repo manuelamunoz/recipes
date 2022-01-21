@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>Slack</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://apps.apple.com/de/app/slack-for-desktop/id803453959?mt=12</string>
+        <string>https://slack.com/ssb/download-osx-universal</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
