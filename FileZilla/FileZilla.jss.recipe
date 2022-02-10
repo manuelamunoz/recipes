@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Development</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>FileZilla herunterladen</string>
+		<string>FileZilla ist ein kostenloser FTP-Client, mit dem Sie Dateien und komplette Verzeichnisse auf FTP-Server uebertragen. </string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>FileZilla.png</string>
 	</dict>

@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>General</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -20,6 +20,8 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Edge ist der empfohlene Browser fuer Windows 10 und bereits auf ihrem PC installiert.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MicrosoftEdge.png</string>
 	</dict>
@@ -58,6 +60,8 @@
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

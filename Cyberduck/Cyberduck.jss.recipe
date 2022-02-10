@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Cyberduck herunterladen.</string>
+		<string>Cyberduck ist ein als Open-Source-Software entwickeltes Dateitransfer-Programm. Neben der Verbindung zu SFTP-, FTP- und WebDAV-Servern bietet die Anwendung die Moeglichkeit, sich mit Cloud-Providern zu verbinden.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Cyberduck.png</string>
 		<key>Comment</key>

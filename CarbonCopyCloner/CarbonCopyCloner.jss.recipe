@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Carbon Copy Cloner herunterladen.</string>
+		<string>Carbon Copy Cloner ist eine Backup-Software, die Daten sichert und bootfaehige Kopien einer Mac-Festplatte erstellen kann.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Carbon Copy Cloner.png</string>
 		<key>Comment</key>

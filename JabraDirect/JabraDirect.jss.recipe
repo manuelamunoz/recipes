@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Communication</string>
+		<string>Tools</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -22,6 +22,8 @@
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Jabra.png</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Jabra Direct stellt sicher, dass Ihr Headset stets mit der aktuellen Firmware ausgestattet ist. Damit profitieren Sie von den neuesten Funktionen, Fehlerbehebungen und erhalten einfachen Zugriff auf Kompatibilitaets-Updates. Dank des benutzerfreundlichen Direct Dashboard war es noch nie so einfach, auf dem Laufenden zu bleiben.</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -60,6 +62,8 @@
 				<string>%NAME%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>

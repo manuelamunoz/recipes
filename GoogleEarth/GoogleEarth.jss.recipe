@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Tools</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Google Earth herunterladen</string>
+		<string>Entdecke die Welt von oben mit Satellitenbildern und 3D-Gelaendeansichten vom gesamten Globus. Dazu bieten 3D-Darstellungen von Gebaeuden in Hunderten von Staedten rund um die Welt ungeahnte Einblicke. Zoome beispielsweise dein Wohnhaus heran und betrachte es dann mit Street View aus der 360-Perspektive. Voyager, eine Tourenauswahl von BBC Earth, NASA, National Geographic u. a. zeigt dir die Welt aus einem anderen Blickwinkel.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Google Earth.png</string>
 	</dict>

@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>BBEdit herunterladen.</string>
+		<string>BBEdit ist der fuehrende professionelle HTML- und Texteditor fuer macOS. Dieses Produkt wurde entwickelt, um die Beduerfnisse von Autoren, Webautoren und Softwareentwicklern zu erfuellen, und bietet eine Fuelle von Funktionen zum Bearbeiten, Suchen und Bearbeiten von Prosa, Quellcode und Textdaten.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>BBEdit.png</string>
 	</dict>
