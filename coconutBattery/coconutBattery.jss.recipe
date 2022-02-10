@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Tools</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>coconutBattery editor.</string>
+		<string>Das kostenfreie Mac-Programm CoconutBattery kann die Daten der in Apples Notebooks verbauten Akkus auslesen und darstellen. In der neuesten Version 3.2 ist dies nun auch mit iPhone- und iPad-Batterien moeglich. Das Tool kann kostenfrei heruntergeladen und genutzt werden.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>coconutBattery.png</string>
 		<key>Comment</key>
