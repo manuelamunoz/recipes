@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Utility</string>
+		<string>Tools</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>The Unarchiver herunterladen</string>
+		<string>The Unarchiver ist eine kostenlose proprietaere Software (ehemals freie Software unter LGPL) zur Dekompression komprimierter Daten und Archivdateien einer Reihe von ueber 30 Dateiformaten. Es funktioniert auch als ein Frontend zu libxad, wodurch es zahlreiche weitere aeltere Formate unterstuetzt.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>The Unarchiver.png</string>
 	</dict>
