@@ -23,7 +23,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Slack herunterladen.</string>
+		<string>Slack ist eine Messaging-App fuer Unternehmen, die Leute mit den Informationen verbindet, die sie benoetigen. Slack bringt Leute als ein Team zusammen und veraendert damit die Art und Weise, wie Organisationen kommunizieren.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Slack.png</string>
 		<key>Comment</key>
