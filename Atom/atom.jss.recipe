@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Development</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Text editor.</string>
+		<string>Wenn Entwickler zusammenarbeiten, passieren grossartige Dinge vom Lehren und Teilen von Wissen bis hin zum Erstellen besserer Software. Teletype for Atom macht die Zusammenarbeit am Code genauso einfach wie das alleinige Programmieren, direkt von Ihrem Editor aus.Teilen Sie Ihren Arbeitsbereich und bearbeiten Sie gemeinsam Code in Echtzeit. </string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Atom.png</string>
 		<key>Comment</key>
