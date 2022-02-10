@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Communication</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -20,6 +20,8 @@
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Teams ist Teil von Microsoft 365 und wurde entwickelt, um Personen, Unterhaltungen und Inhalte in einer benutzerfreundlichen Oberflaeche zusammenzubringen. Chatten Sie mit Personen, fuehren Sie Video-und Audioanrufe und planen Sie Onlinebesprechungen, und nehmen Sie daran teil.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Teams.png</string>
 	</dict>
