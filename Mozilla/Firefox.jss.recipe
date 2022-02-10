@@ -16,9 +16,9 @@ See the following URLs for more info:
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>General</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -30,7 +30,7 @@ See the following URLs for more info:
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Mozilla Firefox herunterladen.</string>
+		<string>Mit „Firefox“ surfen Sie schnell, sicher und komfortabel durchs Internet. Der kostenlose „Firefox“ bietet alles, was Sie von einem guten Browser erwarten koennen: Exzellente Benutzerfuehrung, ein Hoechstmaß an Sicherheit sowie eine gute Performance</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Firefox.png</string>
 	</dict>
