@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest Spotify dmg and creates a pkg from it. Then, uploads to the JSS.</string>
+	<string>General</string>
 	<key>Identifier</key>
 	<string>com.github.manuelamunoz.jss.Spotify</string>
 	<key>Input</key>
@@ -11,7 +11,7 @@
 		<key>CATEGORY</key>
 		<string>Digital Media</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Spotify herunterladen.</string>
+		<string>Spotify ist ein digitaler Streamingdienst für Musik, Podcasts und Videos, mit dem du Zugriff auf Millionen Songs und andere Inhalte von kreativen Koepfen aus der ganzen Welt hast. Ganz normale Funktionen wie die Musikwiedergabe sind kostenlos. Du kannst aber auch das Upgrade auf Spotify Premium ausfuehren.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Spotify.png</string>
 	</dict>

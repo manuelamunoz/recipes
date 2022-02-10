@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Development</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Visual Studio Code herunterladen.</string>
+		<string>Visual Studio Code (kurz VS Code) ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformuebergreifend fuer die Betriebssysteme Windows, macOS und Linux verfuegbar. Visual Studio Code basiert auf dem Framework Electron und ermoeglicht u. a.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Visual Studio Code.png</string>
 		<key>Comment</key>

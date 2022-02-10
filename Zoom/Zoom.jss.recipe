@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Productivity</string>
+		<string>Comminication</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Zoom herunterladen</string>
+		<string>Zoom ist ein Cloud-basierter Videokonferenzdienst, mit dem Sie sich virtuell mit anderen treffen koennen - entweder nur per Video oder Audio oder beides, waehrend Sie Live-Chats durchfuehren - und mit dem Sie diese Sitzungen aufzeichnen koennen, um sie spaeter anzuzeigen.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Zoom.png</string>
 	</dict>
