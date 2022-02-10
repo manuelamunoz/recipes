@@ -9,9 +9,9 @@
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Utility</string>
+		<string>Productivity</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>update-smart-%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
@@ -23,7 +23,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Microsoft Remote Desktop herunterladen.</string>
+		<string>Die Rolle von Microsoft Remote stellt Technologien bereit, mit denen Benutzer eine Verbindung zu virtuellen Desktops, RemoteApp-Programmen und sitzungsbasierten Desktops herstellen koennen. Mit Remotedesktopdiensten koennen Benutzer aus einem Unternehmensnetzwerk oder aus dem Internet auf Remote Verbindungen zugreifen.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Microsoft Remote Desktop.png</string>
 	</dict>
