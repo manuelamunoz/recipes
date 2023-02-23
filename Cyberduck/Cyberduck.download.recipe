@@ -10,7 +10,7 @@ Alternate URLs that can be used for SPARKLE_FEED_URL:
 - nightly: https://version.cyberduck.io/nightly/changelog.rss
 </string>
     <key>Identifier</key>
-    <string>com.github.froegelein.download.Cyberduck</string>
+    <string>com.github.manuelamunoz.download.Cyberduck</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

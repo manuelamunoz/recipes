@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the current release version of Cyberduck and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.pkg.Cyberduck</string>
+    <string>com.github.manuelamunoz.pkg.Cyberduck</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Cyberduck</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.froegelein.download.Cyberduck</string>
+    <string>com.github.manuelamunoz.download.Cyberduck</string>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>Process</key>
