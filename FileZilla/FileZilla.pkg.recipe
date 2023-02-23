@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest FileZilla and creates a package.</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.pkg.FileZilla</string>
+    <string>com.github.manuelamunoz.pkg.FileZilla</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>0.2.9</string>
     <key>ParentRecipe</key>
-    <string>com.github.froegelein.download.FileZilla</string>
+    <string>com.github.manuelamunoz.download.FileZilla</string>
     <key>Process</key>
     <array>
         <dict>

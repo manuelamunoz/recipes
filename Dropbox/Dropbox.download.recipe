@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of Dropbox</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.download.dropbox</string>
+    <string>com.github.manuelamunoz.download.dropbox</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

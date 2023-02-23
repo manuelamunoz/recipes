@@ -29,6 +29,8 @@
             </dict>
         </dict>
         <dict>
+            <key>Processor</key>
+            <string>FlatPkgUnpacker</string>
             <key>Arguments</key>
             <dict>
                <key>destination_path</key>
@@ -36,19 +38,19 @@
                <key>flat_pkg_path</key>
                <string>%RECIPE_CACHE_DIR%/JabraDirectSetup.pkg</string>
             </dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
          </dict>
          <dict>
+            <key>Processor</key>
+            <string>FileFinder</string>
             <key>Arguments</key>
             <dict>
                <key>pattern</key>
                <string>%RECIPE_CACHE_DIR%/downloads/unpack/*JabraDirectSetup*.pkg</string>
             </dict>
-            <key>Processor</key>
-            <string>FileFinder</string>
          </dict>
          <dict>
+            <key>Processor</key>
+            <string>PkgPayloadUnpacker</string>
             <key>Arguments</key>
             <dict>
                <key>destination_path</key>
@@ -56,19 +58,17 @@
                <key>pkg_payload_path</key>
                <string>%found_filename%/Payload</string>
             </dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
          </dict>
          <dict>
-            <key>Arguments</key>
-            <dict>
-               <key>input_plist_path</key>
-               <string>%RECIPE_CACHE_DIR%/downloads/payload/Contents/Info.plist</string>
-               <key>plist_version_key</key>
-               <string>CFBundleShortVersionString</string>
-            </dict>
-            <key>Processor</key>
-            <string>Versioner</string>
+             <key>Processor</key>
+             <string>Versioner</string>
+             <key>Arguments</key>
+             <dict>
+                <key>input_plist_path</key>
+                <string>%RECIPE_CACHE_DIR%/downloads/payload/Contents/Info.plist</string>
+                <key>plist_version_key</key>
+                <string>CFBundleShortVersionString</string>
+             </dict>
          </dict>
          <dict>
             <key>Processor</key>

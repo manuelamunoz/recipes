@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Dropbox and creates a package.</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.pkg.dropbox</string>
+    <string>com.github.manuelamunoz.pkg.dropbox</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>0.2.5</string>
     <key>ParentRecipe</key>
-    <string>com.github.froegelein.download.dropbox</string>
+    <string>com.github.manuelamunoz.download.dropbox</string>
     <key>Process</key>
     <array>
         <dict>

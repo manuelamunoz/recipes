@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.pkg.googlechrome</string>
+    <string>com.github.manuelamunoz.pkg.googlechrome</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>GoogleChrome</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>com.github.froegelein.download.googlechrome</string>
+    <string>com.github.manuelamunoz.download.googlechrome</string>
     <key>Process</key>
     <array>
         <dict>
