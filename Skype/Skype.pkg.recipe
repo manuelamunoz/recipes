@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest Skype disk image and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.froegelein.pkg.Skype</string>
+	<string>com.github.manuelamunoz.pkg.Skype</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.froegelein.download.Skype</string>
+	<string>com.github.manuelamunoz.download.Skype</string>
 	<key>Process</key>
 	<array>
 		<dict>
