@@ -12,7 +12,7 @@ See the following URLs for more info:
     http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
     http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.froegelein.pkg.Firefox_de</string>
+    <string>com.github.manuelamunoz.pkg.Firefox_de</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -21,7 +21,7 @@ See the following URLs for more info:
     <key>MinimumVersion</key>
     <string>2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.froegelein.download.firefox-rc-de</string>
+    <string>com.github.manuelamunoz.download.firefox-rc-de</string>
     <key>Process</key>
     <array>
         <dict>
