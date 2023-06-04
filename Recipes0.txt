@@ -1,0 +1,16 @@
+Apparency.pkg
+CarbonCopyCloner.pkg
+Clickupintel.pkg
+ClickupSilicon.pkg
+Cyberduck.pkg
+Dropbox.pkg
+Firefox.pkg
+GoogleChrome.pkg
+JabraDirect.pkg
+Skype.pkg
+Slack.pkg
+SuspiciousPackages.pkg
+Viscosity.pkg
+VisualStudioCode.pkg
+Webex.pkg
+Zoom.pkg
