@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of Firefox, makes and pkg and then upload in the JCDS, creating a Self Service Policy and Smart Group </string>
+	<key>Identifier</key>
+	<string>com.github.manuelamunoz.jamf.Firefox_de</string>
+	<key>Input</key>
+	<dict>
+	    <!--Hier wird definiert unsere Category für Package, Policy, ConfigProfile und Script-->
+		<key>CATEGORY</key>
+		<string>General</string>
+		<key>GROUP_NAME</key>
+		<!--Entscheidung Nameschema von der Firma-->
+		<string>update-smart-%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<!--Neue Template für JamfUploader, nicht mehr die alte von JSSImporter-->
+		<string>JamfSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Firefox</string>
+		<!--?? Wenn nicht testing, können wir das gleiche wie beim zeile 13 benutzen, hier noch Testen ob es nochmal neue geschrieben wird oder ob wir es besser die Variable aufrufen mit %CATEGORY% wenn wir dasselbe benutzen-->
+		<key>POLICY_CATEGORY</key>
+		<!--?? Testen was passiert wenn wir doppelt Variable nennen gleich.-->
+		<string>Testing</string>
+		<key>POLICY_NAME</key>
+		<!--Entscheidung Nameschema von der Firma-->
+		<string>Install Latest %Name%</string>
+		<key>POLICY_TEMPLATE</key>
+		<!--Neue Template für JamfUploader, nicht mehr die alte von JSSImporter-->
+		<string>JamfPolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Mit „Firefox“ surfen Sie schnell, sicher und komfortabel durchs Internet. Der kostenlose „Firefox“ bietet alles, was Sie von einem guten Browser erwarten koennen: Exzellente Benutzerfuehrung, ein Hoechstmaß an Sicherheit sowie eine gute Performance</string>
+		<key>SELF_SERVICE_DISPLAY_NAME</key>
+		<string>Install Latest %Name%</string>
+		<!--in Reposytory gibt ein Icon für das Programm-->
+		<key>SELF_SERVICE_ICON</key>
+		<string>Firefox.png</string>
+		<!--Wenn pkg nicht hochgeladen wurde, weil das pkg schon in Jamf Pro Server gibt-->
+		<key>UPDATE_PREDICATE</key>
+		<string>pkg_uploader == False</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.manuelamunoz.pkg.Firefox_de</string>
+	<key>Process</key>
+	<array>
+		<dict>
+		    <!--1. Category erstellen falls es nicht vorhanden ist von Key Zeile 12-->
+            <!--Hier kommt der Processor JamfCategoryUploader-->
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</string>
+
+			<key>Arguments</key>
+			<dict>
+                <!--1.1 Category erstellen wenn es nicht vorhanden, Value von Zeile 13-->
+				<key>category_name</key>
+				<string>%CATEGORY%</string>
+
+			</dict>
+		</dict>
+		<dict>
+		    <!--2. pkg im JCDS hochladen-->
+            <!--Hier kommt der Processor JamfPackageUploader-->
+		    <key>Processor</key>
+		    <string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+
+		    <key>Arguments</key>
+			<dict>
+               <!--2.1 Category Package eingeben, same value Zeile 13-->
+			   <key>category_name</key>
+			   <string>%CATEGORY%</string>
+
+			</dict>
+        </dict>
+		<dict>
+		    <!--?? Frage hier was bedeutet-->
+		    <key>Processor</key>
+		    <string>StopProcessingIf</string>
+
+		    <key>Arguments</key>
+		    <dict>
+		        <!--?? Frage hier was bedeutet-->
+		        <key>predicate</key>
+		        <string>%UPDATE_PREDICATE%</string>
+
+		    </dict>
+	    </dict>
+		<dict>
+		    <!--3. Vor Policy erstellen, müssen wir ein SmartGroup bauen für das Scope-->
+			<!--Hier kommt der Processor JamfComputerGroupUploader-->
+		    <key>Processor</key>
+		    <string>com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader</string>
+
+		   <key>Arguments</key>
+		   <dict>
+		     <!--Hier wird die Value von Zeile 16-->
+		     <key>computergroup_name</key>
+			 <string>%GROUP_NAME%</string>
+			 <!--Hier wird die Value von Zeile 19-->
+			 <key>computergroup_template</key>
+			 <string>%GROUP_TEMPLATE%</string>
+
+			</dict>
+		</dict>
+		<dict>
+		    <!--4. Category für Policy erstellen, wenn nicht vorhanden-->
+		    <!--nur notwendig weil wir ein besondere Category benutzen für unsere Policy als das Allgemein Zeile 13-->
+			<!--?? warum das Processor JamfPackageUploader anstatt die JamfPolicyUploader-->
+		    <key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+
+			<key>Arguments</key>
+			<dict>
+                <!--Hier kommt value zeile 25-->
+			    <key>category_name</key>
+				<string>%POLICY_CATEGORY%</string>
+
+			</dict>
+		</dict>
+		<dict>
+		    <!--5. Policy erstellen-->
+		    <key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</string>
+
+
+		    <key>Arguments</key>
+			<dict>
+			      
+				  <key>icon</key>
+				  <string>%SELF_SERVICE_ICON%</string>
+				  <string>%POLICY_NAME%</string>
+				  <key>policy_template</key>
+				  <string>%POLICY_TEMPLATE%</string>
+
+			</dict>
+		</dict>
+		
+	</array>
+</dict>
+</plist>
